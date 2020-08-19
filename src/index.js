@@ -17,7 +17,8 @@ $(document).ready(function() {
 
 
 
-// import { block } from './config.js';
+import { block } from './config.js';
+
 
 
 for(var j in block.blocks) {
