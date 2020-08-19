@@ -28,10 +28,7 @@
     "title": 'Proposal Central',
   	"icon": '<i class="fal fa-folders"></i>'
   },
-  {
-    "title": 'Institutional  Review Board',
-  	"icon": '<i class="fal fa-search"></i>'
-  },
+
   {
     "title": 'Training',
   	"icon": '<i class="fal fa-users-class"></i>'
@@ -52,6 +49,4 @@
 
   };
 
-
-
-  module.exports = block;
+  export { block };

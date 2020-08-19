@@ -24,6 +24,7 @@
     "babel-preset-env": "^1.7.0"
   },
   "dependencies": {
-    "require": "^2.4.20"
+    "require": "^2.4.20",
+    "requirejs": "^2.3.6"
   }
 }

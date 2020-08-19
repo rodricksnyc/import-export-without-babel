@@ -16,8 +16,8 @@ $(document).ready(function() {
 
 
 
-  var block = require("./data/config.js");
 
+// import { block } from './config.js';
 
 
 for(var j in block.blocks) {
@@ -25,7 +25,6 @@ for(var j in block.blocks) {
 $('.popularR').append(`<div class="col-lg-2 col-md-6 col-sm-12 col-xs-12"><div class="smallBubble d-flex flex-column align-items-center">${block.blocks[j].icon}<p class="blue">${block.blocks[j].title}</p></div></div>`)
 
 }
-
 
 
 
