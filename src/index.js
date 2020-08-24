@@ -17,7 +17,6 @@ $(document).ready(function() {
 
 
 
-import { block } from './config.js';
 
 
 
@@ -53,3 +52,6 @@ $('.popularR').append(`<div class="col-lg-2 col-md-6 col-sm-12 col-xs-12"><div c
 
 
 })
+
+
+import { block } from './config.js';
